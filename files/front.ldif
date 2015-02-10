@@ -4,23 +4,52 @@ objectClass: dcObject
 objectClass: organizationalUnit
 ou: openstack
 
-dn: ou=UserGroups,dc=openstack,dc=org
+dn: ou=Accounting,dc=openstack, dc=org
+ou: Accounting
+objectClass: top
 objectClass: organizationalUnit
-ou: UserGroups
 
-dn: ou=Users,dc=openstack,dc=org
+dn: ou=Product Development,dc=openstack, dc=org
+ou: Product Development
+objectClass: top
 objectClass: organizationalUnit
-ou: Users
 
-dn: ou=Roles,dc=openstack,dc=org
+dn: ou=Product Testing,dc=openstack, dc=org
+ou: Product Testing
+objectClass: top
 objectClass: organizationalUnit
-ou: Roles
 
-dn: ou=Projects,dc=openstack,dc=org
+dn: ou=Human Resources,dc=openstack, dc=org
+ou: Human Resources
+objectClass: top
 objectClass: organizationalUnit
-ou: Projects
 
-dn: cn=9fe2ff9ee4384b1894a90878d3e92bab,ou=Roles,dc=openstack,dc=org
-objectClass: organizationalRole
-ou: _member_
-cn: 9fe2ff9ee4384b1894a90878d3e92bab
+dn: ou=Payroll,dc=openstack, dc=org
+ou: Payroll
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Janitorial,dc=openstack, dc=org
+ou: Janitorial
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Management,dc=openstack, dc=org
+ou: Management
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Administrative,dc=openstack, dc=org
+ou: Administrative
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Peons,dc=openstack, dc=org
+ou: Peons
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Planning,dc=openstack, dc=org
+ou: Planning
+objectClass: top
+objectClass: organizationalUnit
