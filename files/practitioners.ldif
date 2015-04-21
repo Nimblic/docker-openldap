@@ -1,10 +1,13 @@
+dn: ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalUnit
+
 dn: cn=Tommy Jones,ou=Practitioners,dc=nimblic, dc=com
 objectClass: top
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Tommy Jones
 sn: Jones
-sAMAccountName: JonesT
 description: This is Tommy Jones's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -30,7 +33,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Laine Bu
 sn: Bu
-sAMAccountName: BuL
 description: This is Laine Bu's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -56,7 +58,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Nish Ariyasingh
 sn: Ariyasingh
-sAMAccountName: AriyasinghN
 description: This is Nish Ariyasingh's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -82,7 +83,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Grant Wessingh
 sn: Wessingh
-sAMAccountName: WessinghG
 description: This is Grant Wessingh's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -108,7 +108,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Sam Page
 sn: Page
-sAMAccountName: PageS
 description: This is Sam Page's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -134,7 +133,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Karen Michelin
 sn: Michelin
-sAMAccountName: MichelinK
 description: This is Karen Michelin's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -151,7 +149,6 @@ employeeType: Normal
 homePhone: +61 3 9999 9999
 initials: K. M.
 mobile: +61 400 000 000
-pager: 
 roomNumber: 0000
 
 dn: cn=Dottie Nice,ou=Practitioners,dc=nimblic, dc=com
@@ -160,7 +157,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Dottie Nice
 sn: Nice
-sAMAccountName: NiceD
 description: This is Dottie Nice's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -177,7 +173,6 @@ employeeType: Normal
 homePhone: +61 3 9999 9999
 initials: D. N.
 mobile: +61 400 000 000
-pager: 
 roomNumber: 0000
 
 dn: cn=Mary Phillip,ou=Practitioners,dc=nimblic, dc=com
@@ -186,7 +181,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Mary Phillip
 sn: Phillip
-sAMAccountName: PhillipM
 description: This is Mary Phillip's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -203,7 +197,6 @@ employeeType: Normal
 homePhone: +61 3 9999 9999
 initials: M. P.
 mobile: +61 400 000 000
-pager: 
 roomNumber: 0000
 
 dn: cn=Abe Bradfield,ou=Practitioners,dc=nimblic, dc=com
@@ -212,7 +205,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Abe Bradfield
 sn: Bradfield
-sAMAccountName: BradfieldA
 description: This is Abe Bradfield's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -229,7 +221,6 @@ employeeType: Normal
 homePhone: +61 3 9999 9999
 initials: A. B.
 mobile: +61 400 000 000
-pager: 
 roomNumber: 0000
 
 dn: cn=Coralee Lum,ou=Practitioners,dc=nimblic, dc=com
@@ -238,7 +229,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Coralee Lum
 sn: Lum
-sAMAccountName: LumC
 description: This is Coralee Lum's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -255,7 +245,6 @@ employeeType: Normal
 homePhone: +61 3 9999 9999
 initials: C. L.
 mobile: +61 400 000 000
-pager: 
 roomNumber: 0000
 
 dn: cn=Edwin Schimmer,ou=Practitioners,dc=nimblic, dc=com
@@ -264,7 +253,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Edwin Schimmer
 sn: Schimmer
-sAMAccountName: SchimmerE
 description: This is Edwin Schimmer's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -281,7 +269,6 @@ employeeType: Normal
 homePhone: +61 3 9999 9999
 initials: E. S.
 mobile: +61 400 000 000
-pager: 
 roomNumber: 0000
 
 dn: cn=Jeremiah Smith,ou=Practitioners,dc=nimblic, dc=com
@@ -290,7 +277,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Jeremiah Smith
 sn: Smith
-sAMAccountName: SmithJ
 description: This is Jeremiah Smith's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -316,7 +302,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Cyril Montanye
 sn: Montanye
-sAMAccountName: MontanyeC
 description: This is Cyril Montanye's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -333,7 +318,6 @@ employeeType: Normal
 homePhone: +61 3 9999 9999
 initials: C. M.
 mobile: +61 400 000 000
-pager: 
 roomNumber: 0000
 
 dn: cn=Mauricio Koonce,ou=Practitioners,dc=nimblic, dc=com
@@ -342,7 +326,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Mauricio Koonce
 sn: Koonce
-sAMAccountName: KoonceM
 description: This is Mauricio Koonce's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -359,7 +342,6 @@ employeeType: Normal
 homePhone: +61 3 9999 9999
 initials: M. K.
 mobile: +61 400 000 000
-pager: 
 roomNumber: 0000
 
 dn: cn=Clarice McGinley,ou=Practitioners,dc=nimblic, dc=com
@@ -368,7 +350,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Clarice McGinley
 sn: McGinley
-sAMAccountName: McGinleyC
 description: This is Clarice McGinley's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -385,7 +366,6 @@ employeeType: Normal
 homePhone: +61 3 9999 9999
 initials: C. M.
 mobile: +61 400 000 000
-pager: 
 roomNumber: 0000
 
 dn: cn=Lori Ackermann,ou=Practitioners,dc=nimblic, dc=com
@@ -394,7 +374,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Lori Ackermann
 sn: Ackermann
-sAMAccountName: AckermannL
 description: This is Lori Ackermann's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -411,7 +390,6 @@ employeeType: Normal
 homePhone: +61 3 9999 9999
 initials: L. A.
 mobile: +61 400 000 000
-pager: 
 roomNumber: 0000
 
 dn: cn=Rod Larabee,ou=Practitioners,dc=nimblic, dc=com
@@ -420,7 +398,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Rod Larabee
 sn: Larabee
-sAMAccountName: LarabeeR
 description: This is Rod Larabee's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -446,7 +423,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Troy Smythe
 sn: Smythe
-sAMAccountName: SmytheT
 description: This is Troy Smythe's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -472,7 +448,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Polly Crane
 sn: Crane
-sAMAccountName: CraneP
 description: This is Polly Crane's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -498,7 +473,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Randall Frenk
 sn: Frenk
-sAMAccountName: FrenkR
 description: This is Randall Frenk's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -524,7 +498,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Tracy McCoy
 sn: McCoy
-sAMAccountName: McCoyT
 description: This is Tracy McCoy's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -550,7 +523,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Jeremy Barry
 sn: Barry
-sAMAccountName: BarryJ
 description: This is Jeremy Barry's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -576,7 +548,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Jackie Oliver
 sn: Oliver
-sAMAccountName: OliverJ
 description: This is Jackie Oliver's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -602,7 +573,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Darla Watts
 sn: Watts
-sAMAccountName: WattsD
 description: This is Darla Watts's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -628,7 +598,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Lori Santiago
 sn: Santiago
-sAMAccountName: SantiagoL
 description: This is Lori Santiago's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -654,7 +623,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Paula Murphy
 sn: Murphy
-sAMAccountName: MurphyP
 description: This is Paula Murphy's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -680,7 +648,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Kari Chavez
 sn: Chavez
-sAMAccountName: ChavezK
 description: This is Kari Chavez's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -706,7 +673,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Marty Cunningham
 sn: Cunningham
-sAMAccountName: CunninghamM
 description: This is Marty Cunningham's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -732,7 +698,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Randall Curtis
 sn: Curtis
-sAMAccountName: CurtisR
 description: This is Randall Curtis's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -758,7 +723,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Don Luna
 sn: Luna
-sAMAccountName: LunaD
 description: This is Don Luna's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -784,7 +748,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Jack Blair
 sn: Blair
-sAMAccountName: BlairJ
 description: This is Jack Blair's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -810,7 +773,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Frances Collins
 sn: Collins
-sAMAccountName: CollinsF
 description: This is Frances Collins's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -836,7 +798,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Whitney Ruiz
 sn: Ruiz
-sAMAccountName: RuizW
 description: This is Whitney Ruiz's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -862,7 +823,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Larissa Ponting
 sn: Ponting
-sAMAccountName: PontingL
 description: This is Larissa Ponting's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -888,7 +848,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Angel Coleman
 sn: Coleman
-sAMAccountName: ColemanA
 description: This is Angel Coleman's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -914,7 +873,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Kelly Cruz
 sn: Cruz
-sAMAccountName: CruzK
 description: This is Kelly Cruz's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -940,7 +898,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Tomas Robbins
 sn: Robbins
-sAMAccountName: RobbinsT
 description: This is Tomas Robbins's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -966,7 +923,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Merle Padilla
 sn: Padilla
-sAMAccountName: PadillaM
 description: This is Merle Padilla's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -992,7 +948,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: John Gilbert
 sn: Gilbert
-sAMAccountName: GilbertJ
 description: This is John Gilbert's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1018,7 +973,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Sheila Francis
 sn: Francis
-sAMAccountName: FrancisS
 description: This is Sheila Francis's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1044,7 +998,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Sheila Rowlands
 sn: Rowlands
-sAMAccountName: RowlandsS
 description: This is Sheila Rowlands's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1070,7 +1023,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Raymond Shaw
 sn: Shaw
-sAMAccountName: ShawR
 description: This is Raymond Shaw's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1096,7 +1048,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Jason Aguilar
 sn: Aguilar
-sAMAccountName: AguilarJ
 description: This is Jason Aguilar's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1122,7 +1073,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Clay Richards
 sn: Richards
-sAMAccountName: RichardsC
 description: This is Clay Richards's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1148,7 +1098,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Troy Smyers
 sn: Smyers
-sAMAccountName: SmyersT
 description: This is Troy Smyers's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1165,7 +1114,6 @@ employeeType: Normal
 homePhone: +61 3 9999 9999
 initials: T. S.
 mobile: +61 400 000 000
-pager: 
 roomNumber: 0000
 
 dn: cn=Sabrina Stone,ou=Practitioners,dc=nimblic, dc=com
@@ -1174,7 +1122,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Sabrina Stone
 sn: Stone
-sAMAccountName: StoneS
 description: This is Sabrina Stone's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1200,7 +1147,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Sanora Sherer
 sn: Sherer
-sAMAccountName: ShererS
 description: This is Sanora Sherer's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1226,7 +1172,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Hamish Harrison
 sn: Harrison
-sAMAccountName: HarrisonH
 description: This is Hamish Harrison's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1252,7 +1197,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Ursula Guiness
 sn: Guiness
-sAMAccountName: GuinessU
 description: This is Ursula Guiness's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1278,7 +1222,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Sandra Blake
 sn: Blake
-sAMAccountName: BlakeS
 description: This is Sandra Blake's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1304,7 +1247,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Garry Joseph
 sn: Joseph
-sAMAccountName: JosephG
 description: This is Garry Joseph's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1330,7 +1272,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Jim Rice
 sn: Rice
-sAMAccountName: RiceJ
 description: This is Jim Rice's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1356,7 +1297,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Anthony Armstrong
 sn: Armstrong
-sAMAccountName: ArmstrongA
 description: This is Anthony Armstrong's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1382,7 +1322,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Darren Howard
 sn: Howard
-sAMAccountName: HowardD
 description: This is Darren Howard's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1408,7 +1347,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Wayne Graves
 sn: Graves
-sAMAccountName: GravesW
 description: This is Wayne Graves's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1434,7 +1372,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Albert Harper
 sn: Harper
-sAMAccountName: HarperA
 description: This is Albert Harper's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1460,7 +1397,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Shane Perkins
 sn: Perkins
-sAMAccountName: PerkinsS
 description: This is Shane Perkins's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1486,7 +1422,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Andres Holmes
 sn: Holmes
-sAMAccountName: HolmesA
 description: This is Andres Holmes's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1512,7 +1447,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Pete Martin
 sn: Martin
-sAMAccountName: MartinP
 description: This is Pete Martin's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1538,7 +1472,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Lee Taylor
 sn: Taylor
-sAMAccountName: TaylorL
 description: This is Lee Taylor's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1564,7 +1497,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Steven Newman
 sn: Newman
-sAMAccountName: NewmanS
 description: This is Steven Newman's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1590,7 +1522,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Cornelius Diaz
 sn: Diaz
-sAMAccountName: DiazC
 description: This is Cornelius Diaz's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1616,7 +1547,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Ricky Clayton
 sn: Clayton
-sAMAccountName: ClaytonR
 description: This is Ricky Clayton's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1642,7 +1572,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Jim Shaw
 sn: Shaw
-sAMAccountName: ShawJ
 description: This is Jim Shaw's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1668,7 +1597,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Everett Howell
 sn: Howell
-sAMAccountName: HowellE
 description: This is Everett Howell's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1694,7 +1622,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Bernard Ramsey
 sn: Ramsey
-sAMAccountName: RamseyB
 description: This is Bernard Ramsey's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1720,7 +1647,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Lewis Ford
 sn: Ford
-sAMAccountName: FordL
 description: This is Lewis Ford's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1746,7 +1672,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Felix Webster
 sn: Webster
-sAMAccountName: WebsterF
 description: This is Felix Webster's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1772,7 +1697,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Tomas Vasquez
 sn: Vasquez
-sAMAccountName: VasquezT
 description: This is Tomas Vasquez's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1798,7 +1722,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Harvey Beck
 sn: Beck
-sAMAccountName: BeckH
 description: This is Harvey Beck's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1824,7 +1747,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Jose Richardson
 sn: Richardson
-sAMAccountName: RichardsonJ
 description: This is Jose Richardson's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1850,7 +1772,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Timmy Herrera
 sn: Herrera
-sAMAccountName: HerreraT
 description: This is Timmy Herrera's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1876,7 +1797,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Cedric Lucas
 sn: Lucas
-sAMAccountName: LucasC
 description: This is Cedric Lucas's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1902,7 +1822,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Nicholas Stokes
 sn: Stokes
-sAMAccountName: StokesN
 description: This is Nicholas Stokes's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1928,7 +1847,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Doyle Rowe
 sn: Rowe
-sAMAccountName: RoweD
 description: This is Doyle Rowe's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1954,7 +1872,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Matthew Davidson
 sn: Davidson
-sAMAccountName: DavidsonM
 description: This is Matthew Davidson's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -1980,7 +1897,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Corey Davis
 sn: Davis
-sAMAccountName: DavisC
 description: This is Corey Davis's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2006,7 +1922,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Ralph Nelson
 sn: Nelson
-sAMAccountName: NelsonR
 description: This is Ralph Nelson's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2032,7 +1947,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Francis Collins
 sn: Collins
-sAMAccountName: CollinsF
 description: This is Francis Collins's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2058,7 +1972,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Arthur Sharp
 sn: Sharp
-sAMAccountName: SharpA
 description: This is Arthur Sharp's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2084,7 +1997,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Wesley Hubbard
 sn: Hubbard
-sAMAccountName: HubbardW
 description: This is Wesley Hubbard's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2110,7 +2022,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Arturo Cortez
 sn: Cortez
-sAMAccountName: CortezA
 description: This is Arturo Cortez's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2136,7 +2047,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Randy McCormack
 sn: McCormack
-sAMAccountName: McCormackR
 description: This is Randy McCormack's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2162,7 +2072,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Joseph Patton
 sn: Patton
-sAMAccountName: PattonJ
 description: This is Joseph Patton's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2188,7 +2097,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Hector Fuller
 sn: Fuller
-sAMAccountName: FullerH
 description: This is Hector Fuller's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2214,7 +2122,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Tyler Becker
 sn: Becker
-sAMAccountName: BeckerT
 description: This is Tyler Becker's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2240,7 +2147,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Abel Robbins
 sn: Robbins
-sAMAccountName: RobbinsA
 description: This is Abel Robbins's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2266,7 +2172,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Austin Power
 sn: Power
-sAMAccountName: PowerA
 description: This is Austin Power's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2292,7 +2197,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Luke Powers
 sn: Powers
-sAMAccountName: PowersL
 description: This is Luke Powers's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2318,7 +2222,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Adrian Bell
 sn: Bell
-sAMAccountName: BellA
 description: This is Adrian Bell's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2344,7 +2247,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Scott Woods
 sn: Woods
-sAMAccountName: WoodsS
 description: This is Scott Woods's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2370,7 +2272,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Levi Reid
 sn: Reid
-sAMAccountName: ReidL
 description: This is Levi Reid's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2396,7 +2297,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Karl Morrison
 sn: Morrison
-sAMAccountName: MorrisonK
 description: This is Karl Morrison's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2422,7 +2322,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Rene Gonzales
 sn: Gonzales
-sAMAccountName: GonzalesR
 description: This is Rene Gonzales's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2448,7 +2347,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Joel Harmon
 sn: Harmon
-sAMAccountName: HarmonJ
 description: This is Joel Harmon's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2474,7 +2372,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Oscar McCarthy
 sn: McCarthy
-sAMAccountName: McCarthyO
 description: This is Oscar McCarthy's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2500,7 +2397,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Kent Cummings
 sn: Cummings
-sAMAccountName: CummingsK
 description: This is Kent Cummings's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2526,7 +2422,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Gordon Hardy
 sn: Hardy
-sAMAccountName: HardyG
 description: This is Gordon Hardy's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2552,7 +2447,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Donald Walsh
 sn: Walsh
-sAMAccountName: WalshD
 description: This is Donald Walsh's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2578,7 +2472,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Ruben Phillips
 sn: Phillips
-sAMAccountName: PhillipsR
 description: This is Ruben Phillips's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2604,7 +2497,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Antonia Lopez
 sn: Lopez
-sAMAccountName: LopezA
 description: This is Antonia Lopez's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2630,7 +2522,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Michelle Horton
 sn: Horton
-sAMAccountName: HortonM
 description: This is Michelle Horton's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2656,7 +2547,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Danielle Vargas
 sn: Vargas
-sAMAccountName: VargasD
 description: This is Danielle Vargas's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2682,7 +2572,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Karla Hopkins
 sn: Hopkins
-sAMAccountName: HopkinsK
 description: This is Karla Hopkins's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2708,7 +2597,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Peggy Daniels
 sn: Daniels
-sAMAccountName: DanielsP
 description: This is Peggy Daniels's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2734,7 +2622,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Elisa Grant
 sn: Grant
-sAMAccountName: GrantE
 description: This is Elisa Grant's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2760,7 +2647,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Katherine White
 sn: White
-sAMAccountName: WhiteK
 description: This is Katherine White's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2786,7 +2672,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Brittany Fischer
 sn: Fischer
-sAMAccountName: FischerB
 description: This is Brittany Fischer's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2812,7 +2697,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Kathy Stewart
 sn: Stewart
-sAMAccountName: StewartK
 description: This is Kathy Stewart's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2838,7 +2722,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Rosie Hicks
 sn: Hicks
-sAMAccountName: HicksR
 description: This is Rosie Hicks's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2864,7 +2747,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Nellie Spencer
 sn: Spencer
-sAMAccountName: SpencerN
 description: This is Nellie Spencer's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2890,7 +2772,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Heidi Neal
 sn: Neal
-sAMAccountName: NealH
 description: This is Heidi Neal's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2916,7 +2797,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Barbara Flowers
 sn: Flowers
-sAMAccountName: FlowersB
 description: This is Barbara Flowers's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2942,7 +2822,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Belinda Matthews
 sn: Matthews
-sAMAccountName: MatthewsB
 description: This is Belinda Matthews's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2968,7 +2847,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Candice Taylor
 sn: Taylor
-sAMAccountName: TaylorC
 description: This is Candice Taylor's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -2994,7 +2872,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Lynn Walker
 sn: Walker
-sAMAccountName: WalkerL
 description: This is Lynn Walker's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3020,7 +2897,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Sara Newton
 sn: Newton
-sAMAccountName: NewtonS
 description: This is Sara Newton's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3046,7 +2922,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Toni Bates
 sn: Bates
-sAMAccountName: BatesT
 description: This is Toni Bates's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3072,7 +2947,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Ethel Chong
 sn: Chong
-sAMAccountName: ChongE
 description: This is Ethel Chong's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3098,7 +2972,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Lynette Wong
 sn: Wong
-sAMAccountName: WongL
 description: This is Lynette Wong's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3124,7 +2997,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Dawn Ng
 sn: Ng
-sAMAccountName: NgD
 description: This is Dawn Ng's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3150,7 +3022,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Courtney Chow
 sn: Chow
-sAMAccountName: ChowC
 description: This is Courtney Chow's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3176,7 +3047,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Marcella Gutierrez
 sn: Gutierrez
-sAMAccountName: GutierrezM
 description: This is Marcella Gutierrez's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3202,7 +3072,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Lauren Wong
 sn: Wong
-sAMAccountName: WongL
 description: This is Lauren Wong's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3228,7 +3097,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Valerie Luna
 sn: Luna
-sAMAccountName: LunaV
 description: This is Valerie Luna's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3254,7 +3122,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Rosa Lund
 sn: Lund
-sAMAccountName: LundR
 description: This is Rosa Lund's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3280,7 +3147,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Lindsey Harris
 sn: Harris
-sAMAccountName: HarrisL
 description: This is Lindsey Harris's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3306,7 +3172,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Amelia Hughes
 sn: Hughes
-sAMAccountName: HughesA
 description: This is Amelia Hughes's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3332,7 +3197,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Olivia Hardy
 sn: Hardy
-sAMAccountName: HardyO
 description: This is Olivia Hardy's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3358,7 +3222,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Vicky Leonard
 sn: Leonard
-sAMAccountName: LeonardV
 description: This is Vicky Leonard's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3384,7 +3247,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Joy Wolfe
 sn: Wolfe
-sAMAccountName: WolfeJ
 description: This is Joy Wolfe's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3410,7 +3272,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Brandy Reyes
 sn: Reyes
-sAMAccountName: ReyesB
 description: This is Brandy Reyes's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3436,7 +3297,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Fannie Holloway
 sn: Holloway
-sAMAccountName: HollowayF
 description: This is Fannie Holloway's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3462,7 +3322,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Lisa Wade
 sn: Wade
-sAMAccountName: WadeL
 description: This is Lisa Wade's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3488,7 +3347,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Darla Berry
 sn: Berry
-sAMAccountName: BerryD
 description: This is Darla Berry's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3514,7 +3372,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Casey Tyler
 sn: Tyler
-sAMAccountName: TylerC
 description: This is Casey Tyler's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3540,7 +3397,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Veronica Potter
 sn: Potter
-sAMAccountName: PotterV
 description: This is Veronica Potter's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3566,7 +3422,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Olive Page
 sn: Page
-sAMAccountName: PageO
 description: This is Olive Page's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3592,7 +3447,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Rachel Owens
 sn: Owens
-sAMAccountName: OwensR
 description: This is Rachel Owens's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3618,7 +3472,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Yvonne Phillips
 sn: Phillips
-sAMAccountName: PhillipsY
 description: This is Yvonne Phillips's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3644,7 +3497,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Iris Foo
 sn: Foo
-sAMAccountName: FooI
 description: This is Iris Foo's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3670,7 +3522,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Opal Simpson
 sn: Simpson
-sAMAccountName: SimpsonO
 description: This is Opal Simpson's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3696,7 +3547,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Julia Gomez
 sn: Gomez
-sAMAccountName: GomezJ
 description: This is Julia Gomez's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3722,7 +3572,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Carrie Xu
 sn: Xu
-sAMAccountName: XuC
 description: This is Carrie Xu's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3748,7 +3597,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Hilda Paul
 sn: Paul
-sAMAccountName: PaulH
 description: This is Hilda Paul's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3774,7 +3622,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Kelli Lyons
 sn: Lyons
-sAMAccountName: LyonsK
 description: This is Kelli Lyons's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3800,7 +3647,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Naomi Andrews
 sn: Andrews
-sAMAccountName: AndrewsN
 description: This is Naomi Andrews's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3826,7 +3672,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Juanita Gomez
 sn: Gomez
-sAMAccountName: GomezJ
 description: This is Juanita Gomez's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3852,7 +3697,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Shelley Aguilar
 sn: Aguilar
-sAMAccountName: AguilarS
 description: This is Shelley Aguilar's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3878,7 +3722,6 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 cn: Leticia Vaughn
 sn: Vaughn
-sAMAccountName: VaughnL
 description: This is Leticia Vaughn's description
 facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
 ou: Practitioners
@@ -3896,4 +3739,1254 @@ homePhone: +61 3 9999 9999
 initials: L. V.
 mobile: +61 400 000 000
 pager: 2150
+roomNumber: 0000
+
+dn: cn=Samuel Miller,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Samuel Miller
+sn: Miller
+description: This is Samuel Miller's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: MillerS
+givenName: Samuel
+mail:MillerS@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: M. S.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Henry Thompson,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Henry Thompson
+sn: Thompson
+description: This is Henry Thompson's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: ThompsonH
+givenName: Henry
+mail:ThompsonH@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: T. H.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Stephen Howard,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Stephen Howard
+sn: Howard
+description: This is Stephen Howard's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: HowardS
+givenName: Stephen
+mail:HowardS@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: H. S.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=David Lee,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: David Lee
+sn: Lee
+description: This is David Lee's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: LeeD
+givenName: David
+mail:LeeD@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: L. D.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Robert Henderson,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Robert Henderson
+sn: Henderson
+description: This is Robert Henderson's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: HendersonR
+givenName: Robert
+mail:HendersonR@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: H. R.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Patrick James,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Patrick James
+sn: James
+description: This is Patrick James's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: JamesP
+givenName: Patrick
+mail:JamesP@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: J. P.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Gerald Flores,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Gerald Flores
+sn: Flores
+description: This is Gerald Flores's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: FloresG
+givenName: Gerald
+mail:FloresG@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: F. G.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Jason Rivera,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Jason Rivera
+sn: Rivera
+description: This is Jason Rivera's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: RiveraJ
+givenName: Jason
+mail:RiveraJ@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: R. J.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Arthur Hernandez,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Arthur Hernandez
+sn: Hernandez
+description: This is Arthur Hernandez's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: HernandezA
+givenName: Arthur
+mail:HernandezA@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: H. A.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Willie Perez,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Willie Perez
+sn: Perez
+description: This is Willie Perez's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: PerezW
+givenName: Willie
+mail:PerezW@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: P. W.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Jonathan Brooks,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Jonathan Brooks
+sn: Brooks
+description: This is Jonathan Brooks's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: BrooksJ
+givenName: Jonathan
+mail:BrooksJ@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: B. J.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Walter Harris,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Walter Harris
+sn: Harris
+description: This is Walter Harris's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: HarrisW
+givenName: Walter
+mail:HarrisW@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: H. W.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Randy Murphy,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Randy Murphy
+sn: Murphy
+description: This is Randy Murphy's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: MurphyR
+givenName: Randy
+mail:MurphyR@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: M. R.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Thomas Clark,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Thomas Clark
+sn: Clark
+description: This is Thomas Clark's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: ClarkT
+givenName: Thomas
+mail:ClarkT@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: C. T.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Jerry Robinson,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Jerry Robinson
+sn: Robinson
+description: This is Jerry Robinson's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: RobinsonJ
+givenName: Jerry
+mail:RobinsonJ@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: R. J.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Eric Gonzalez,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Eric Gonzalez
+sn: Gonzalez
+description: This is Eric Gonzalez's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: GonzalezE
+givenName: Eric
+mail:GonzalezE@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: G. E.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Ryan Nelson,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Ryan Nelson
+sn: Nelson
+description: This is Ryan Nelson's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: NelsonR
+givenName: Ryan
+mail:NelsonR@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: N. R.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Matthew Powell,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Matthew Powell
+sn: Powell
+description: This is Matthew Powell's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: PowellM
+givenName: Matthew
+mail:PowellM@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: P. M.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Joe Gray,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Joe Gray
+sn: Gray
+description: This is Joe Gray's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: GrayJ
+givenName: Joe
+mail:GrayJ@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: G. J.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Russell Wright,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Russell Wright
+sn: Wright
+description: This is Russell Wright's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: WrightR
+givenName: Russell
+mail:WrightR@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: W. R.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Ronald Gonzales,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Ronald Gonzales
+sn: Gonzales
+description: This is Ronald Gonzales's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: GonzalesR
+givenName: Ronald
+mail:GonzalesR@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: G. R.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Larry Jenkins,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Larry Jenkins
+sn: Jenkins
+description: This is Larry Jenkins's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: JenkinsL
+givenName: Larry
+mail:JenkinsL@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: J. L.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Lawrence Butler,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Lawrence Butler
+sn: Butler
+description: This is Lawrence Butler's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: ButlerL
+givenName: Lawrence
+mail:ButlerL@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: B. L.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Daniel Ward,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Daniel Ward
+sn: Ward
+description: This is Daniel Ward's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: WardD
+givenName: Daniel
+mail:WardD@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: W. D.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Philip Long,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Philip Long
+sn: Long
+description: This is Philip Long's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: LongP
+givenName: Philip
+mail:LongP@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: L. P.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Shirley Hill,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Shirley Hill
+sn: Hill
+description: This is Shirley Hill's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: HillS
+givenName: Shirley
+mail:HillS@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: H. S.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Lori Brown,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Lori Brown
+sn: Brown
+description: This is Lori Brown's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: BrownL
+givenName: Lori
+mail:BrownL@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: B. L.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Sara Campbell,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Sara Campbell
+sn: Campbell
+description: This is Sara Campbell's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: CampbellS
+givenName: Sara
+mail:CampbellS@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: C. S.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Patricia Walker,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Patricia Walker
+sn: Walker
+description: This is Patricia Walker's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: WalkerP
+givenName: Patricia
+mail:WalkerP@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: W. P.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Amy Griffin,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Amy Griffin
+sn: Griffin
+description: This is Amy Griffin's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: GriffinA
+givenName: Amy
+mail:GriffinA@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: G. A.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Judith Morgan,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Judith Morgan
+sn: Morgan
+description: This is Judith Morgan's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: MorganJ
+givenName: Judith
+mail:MorganJ@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: M. J.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Beverly Washington,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Beverly Washington
+sn: Washington
+description: This is Beverly Washington's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: WashingtonB
+givenName: Beverly
+mail:WashingtonB@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: W. B.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Jennifer Russell,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Jennifer Russell
+sn: Russell
+description: This is Jennifer Russell's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: RussellJ
+givenName: Jennifer
+mail:RussellJ@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: R. J.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Christine Garcia,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Christine Garcia
+sn: Garcia
+description: This is Christine Garcia's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: GarciaC
+givenName: Christine
+mail:GarciaC@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: G. C.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Karen Reed,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Karen Reed
+sn: Reed
+description: This is Karen Reed's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: ReedK
+givenName: Karen
+mail:ReedK@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: R. K.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Pamela Thompson,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Pamela Thompson
+sn: Thompson
+description: This is Pamela Thompson's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: ThompsonP
+givenName: Pamela
+mail:ThompsonP@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: T. P.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Louise Wilson,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Louise Wilson
+sn: Wilson
+description: This is Louise Wilson's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: WilsonL
+givenName: Louise
+mail:WilsonL@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: W. L.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Theresa Jones,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Theresa Jones
+sn: Jones
+description: This is Theresa Jones's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: JonesT
+givenName: Theresa
+mail:JonesT@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: J. T.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Ann Cooper,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Ann Cooper
+sn: Cooper
+description: This is Ann Cooper's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: CooperA
+givenName: Ann
+mail:CooperA@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: C. A.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Catherine Martinez,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Catherine Martinez
+sn: Martinez
+description: This is Catherine Martinez's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: MartinezC
+givenName: Catherine
+mail:MartinezC@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: M. C.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Maria Edwards,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Maria Edwards
+sn: Edwards
+description: This is Maria Edwards's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: EdwardsM
+givenName: Maria
+mail:EdwardsM@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: E. M.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Jane Ross,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Jane Ross
+sn: Ross
+description: This is Jane Ross's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: RossJ
+givenName: Jane
+mail:RossJ@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: R. J.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Brenda Morris,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Brenda Morris
+sn: Morris
+description: This is Brenda Morris's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: MorrisB
+givenName: Brenda
+mail:MorrisB@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: M. B.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Helen Murphy,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Helen Murphy
+sn: Murphy
+description: This is Helen Murphy's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: MurphyH
+givenName: Helen
+mail:MurphyH@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: M. H.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Jean Moore,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Jean Moore
+sn: Moore
+description: This is Jean Moore's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: MooreJ
+givenName: Jean
+mail:MooreJ@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: M. J.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Marilyn King,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Marilyn King
+sn: King
+description: This is Marilyn King's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: KingM
+givenName: Marilyn
+mail:KingM@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: K. M.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Kathryn Bailey,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Kathryn Bailey
+sn: Bailey
+description: This is Kathryn Bailey's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: BaileyK
+givenName: Kathryn
+mail:BaileyK@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: B. K.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Emily Mitchell,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Emily Mitchell
+sn: Mitchell
+description: This is Emily Mitchell's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: MitchellE
+givenName: Emily
+mail:MitchellE@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: M. E.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Ruth Jackson,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Ruth Jackson
+sn: Jackson
+description: This is Ruth Jackson's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: JacksonR
+givenName: Ruth
+mail:JacksonR@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: J. R.
+mobile: +61 400 000 000
+pager: 0000
+roomNumber: 0000
+
+dn: cn=Carol Wright,ou=Practitioners,dc=nimblic, dc=com
+objectClass: top
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Carol Wright
+sn: Wright
+description: This is Carol Wright's description
+facsimileTelephoneNumber: +61 3 9000 0000 l: Melbourne
+ou: Practitioners
+postalAddress: Practitioners$Melbourne
+telephoneNumber: +61 3 9000 0001
+title: Nurse
+userPassword: Password1
+uid: WrightC
+givenName: Carol
+mail:WrightC@examplehospital.com
+carLicense: AAA000
+departmentNumber: 0001
+employeeType: Normal
+homePhone: +61 3 9999 9999
+initials: W. C.
+mobile: +61 400 000 000
+pager: 0000
 roomNumber: 0000
